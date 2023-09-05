@@ -264,6 +264,6 @@ def plot_tick(df, display=False):
         plot.show()
     else :
         timestamp = datetime.datetime.now().strftime('%Y%m%d%H%M%S%f')
-        filename = timestamp+'.png'
+        filename = timestamp+'.jpg'
         plot.savefig(filename)
         print(filename+'figure saved.')
